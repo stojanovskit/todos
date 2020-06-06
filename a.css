@@ -14,7 +14,9 @@ li:hover{
     text-decoration: line-through;
 }
 span{
+    border:red solid 1px;
     color:red;
+	background-color:yellow;
 }
 span:hover{
     font-size: x-large ;

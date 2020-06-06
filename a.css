@@ -1,0 +1,35 @@
+.container{
+    /* padding-top: 10px; */
+    background-color:#00A3C0;
+    width: 360px;
+    margin: 0 auto;
+    border: 0.5px gray solid;
+}
+li:hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
+.gray{
+    color:gray;
+    text-decoration: line-through;
+}
+span{
+    color:red;
+}
+span:hover{
+    font-size: x-large ;
+}
+body{
+    background-image: url("https://library.kissclipart.com/20180903/age/kissclipart-blue-background-clipart-desktop-wallpaper-blue-f15975dec8876f71.png");
+    background-size: cover;
+}
+h5:hover{
+cursor: pointer;
+color: crimson;
+}
+.hide{
+    display:none;
+}
+li{
+    list-style: none;
+}

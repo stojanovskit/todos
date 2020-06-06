@@ -1,6 +1,6 @@
 $("input[type='text']").keypress(function(event){
     if(event.which==13){
-        $("ul").append("<li><span> X  </span>  " + " " + $("input[type='text']").val() + " </li>");
+        $("ul").append("<li><span> X  </span> " + " " + $("input[type='text']").val() + " </li>");
         $(this).val("");
     };
 });
